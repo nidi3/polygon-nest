@@ -3,7 +3,7 @@ import {dot, line, polygon, rgb} from './draw.js'
 
 const colors = ['ff0000', '00ff00', '0000ff']
 
-window.pentagon = function (canvas) {
+window.gon = function (canvas) {
     const width = canvas.width
     const height = canvas.height
     let ctx = canvas.getContext('2d')
